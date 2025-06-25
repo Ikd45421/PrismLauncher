@@ -140,7 +140,7 @@ void AccountListPage::on_actionAddMicrosoft_triggered()
 }
 
 void AccountListPage::on_actionAddOffline_triggered()
--- fix
+ // FIX: unlock non-premium account mode
 
     MinecraftAccountPtr account =
         OfflineLoginDialog::newAccount(this, tr("Please enter your desired username to add your offline account."));
